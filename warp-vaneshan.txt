@@ -1,0 +1,110 @@
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "@Academy_Vaneshan",
+      "server": "162.159.195.125",
+      "server_port": 2506,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:81fe:6934:1be:c8a3:c6a0/128"
+      ],
+      "private_key": "eJ4SYUT7ZUuhn7NvgcqrlTM9AVKostAm3zzuNJACZU0=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [ 96, 6, 158 ],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "@Academy_Vaneshan-Main",
+      "detour": "Warp-IR",
+      "server": "162.159.195.125",
+      "server_port": 2506,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:80e4:1ccd:c65f:b7af:5599/128"
+      ],
+      "private_key": "wNsFaz2sgJtvZQkP1VabJjLPB59NadSFBkedY3dXLWI=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [ 64, 51, 226 ],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "@Academy_Vaneshan1",
+      "server": "188.114.99.123",
+      "server_port": 939,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8e7e:2f46:e712:dfea:770/128"
+      ],
+      "private_key": "+JUFkpfUuYZWWK2lBgt1NayksO2Yo1e1rRhs6MLHb1Q=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [ 90, 29, 29 ],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "@Academy_Vaneshan-Main1",
+      "detour": "Warp-IR1",
+      "server": "188.114.99.123",
+      "server_port": 939,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8df5:2680:648d:d6ee:942/128"
+      ],
+      "private_key": "sMvCYmebOtRjToDXQclg8ppK2u+4NLJLbfFeKTqXOmU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [ 114, 83, 227 ],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "@Academy_Vaneshan2",
+      "server": "188.114.97.0",
+      "server_port": 2506,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:895a:b813:3b45:acc:9f4c/128"
+      ],
+      "private_key": "6AMrnRpyzRo9s0LsUcJttNtOJBvSAYSrTxyU+hvVe2Q=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [ 170, 43, 233 ],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "@Academy_Vaneshan-Main2",
+      "detour": "Warp-IR2",
+      "server": "188.114.97.0",
+      "server_port": 2506,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8948:2aae:7591:2274:35fd/128"
+      ],
+      "private_key": "YJbnOAWXQvOWnaNYvX17WHuMzZGPshKHujzdrtFg8lY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [ 102, 217, 112 ],  
+
+      "mtu": 1120,
+      "fake_packets": "10-30"
+    }
+  ]
+}
