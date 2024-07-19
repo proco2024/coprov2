@@ -3,7 +3,7 @@
   [
     {
       "type": "wireguard",
-      "tag": "@Academy_Vaneshan",
+      "tag": "Academy_Vaneshan",
       "server": "162.159.195.125",
       "server_port": 2506,
 
@@ -20,7 +20,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "@Academy_Vaneshan-Main",
+      "tag": "Academy_Vaneshan-Main",
       "detour": "Warp-IR",
       "server": "162.159.195.125",
       "server_port": 2506,
@@ -38,7 +38,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "@Academy_Vaneshan1",
+      "tag": "Academy_Vaneshan1",
       "server": "188.114.99.123",
       "server_port": 939,
 
@@ -55,7 +55,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "@Academy_Vaneshan-Main1",
+      "tag": "Academy_Vaneshan-Main1",
       "detour": "Warp-IR1",
       "server": "188.114.99.123",
       "server_port": 939,
@@ -73,7 +73,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "@Academy_Vaneshan2",
+      "tag": "Academy_Vaneshan2",
       "server": "188.114.97.0",
       "server_port": 2506,
 
@@ -90,7 +90,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "@Academy_Vaneshan-Main2",
+      "tag": "Academy_Vaneshan-Main2",
       "detour": "Warp-IR2",
       "server": "188.114.97.0",
       "server_port": 2506,
