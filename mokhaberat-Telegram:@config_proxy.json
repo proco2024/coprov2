@@ -81,7 +81,7 @@
        "outbounds": [
          "auto",
          "direct",
-         "@KevinZakarian-iVPN.Pro"
+         "Telegram:@config_proxy"
        ],
        "tag": "proxy",
        "type": "selector"
@@ -89,7 +89,7 @@
      {
        "interval": "10m",
        "outbounds": [
-         "@KevinZakarian-iVPN.Pro"
+         "Telegram:@config_proxy"
        ],
        "tag": "auto",
        "tolerance": 50,
