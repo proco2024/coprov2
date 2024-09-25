@@ -81,7 +81,7 @@
        "outbounds": [
          "auto",
          "direct",
-         "@KevinZakarian-iVPN.Pro"
+         "Telegram:@config_proxy"
        ],
        "tag": "proxy",
        "type": "selector"
@@ -89,7 +89,7 @@
      {
        "interval": "10m",
        "outbounds": [
-         "@KevinZakarian-iVPN.Pro"
+         "Telegram:@config_proxy"
        ],
        "tag": "auto",
        "tolerance": 50,
@@ -110,15 +110,15 @@
      },
      {
        "type": "hysteria2",
-       "tag": "@KevinZakarian-iVPN.Pro",
+       "tag": "Telegram:@config_proxy",
        "server_port": 443,
        "obfs": {
          "type": "salamander",
          "password": "@KevinZakarian-iVPN.Pro"
          
        },
-       "password": "Xh5fdGVxhd",
-       "server": "tci-public.serverv.net",
+       "password": "5OO5jCWiQl",
+       "server": "mtn-public.serverv.net",
        "tls": {
          "enabled": true,
          "insecure": true,
@@ -133,7 +133,7 @@
           "pq_signature_schemes_enabled": true,
           "config": [
              "-----BEGIN ECH CONFIGS-----",
-             "AEX+DQBBAAAgACBoB35j7YkbHYw9/PIAlGtguohg7DYgFu2lrcpNjvauZQAIAAEA",
+             "AEX+DQBBAAAgACDaFVxbvOGjSl4KXlTSytu+0g6BjtpeqqmjYmgO4jM7DQAIAAEA",
              "AQABAAMADnd3dy5nb29nbGUuY29tAAA=",
              "-----END ECH CONFIGS-----"
           ]
