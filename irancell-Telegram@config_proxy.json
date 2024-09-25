@@ -117,7 +117,7 @@
          "password": "@KevinZakarian-iVPN.Pro"
          
        },
-       "password": "5OO5jCWiQl",
+       "password": "DYgjw9vEmX",
        "server": "mtn-public.serverv.net",
        "tls": {
          "enabled": true,
@@ -133,7 +133,7 @@
           "pq_signature_schemes_enabled": true,
           "config": [
              "-----BEGIN ECH CONFIGS-----",
-             "AEX+DQBBAAAgACDaFVxbvOGjSl4KXlTSytu+0g6BjtpeqqmjYmgO4jM7DQAIAAEA",
+             "AEX+DQBBAAAgACAWCCk5Rc3aUOyK/0lIEnWIm+FQgt8PrXsikl1T18lvawAIAAEA",
              "AQABAAMADnd3dy5nb29nbGUuY29tAAA=",
              "-----END ECH CONFIGS-----"
           ]
